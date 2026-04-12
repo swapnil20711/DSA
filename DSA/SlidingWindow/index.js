@@ -41,6 +41,7 @@ let maxLen = 0,left=0,right=0,sum=0;
 // }
 
 //optimal approach
+// O(N)
 while(right<arr.length-1){
     sum+= arr[right];
     if(sum>k){
